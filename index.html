@@ -1,53 +1,87 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>AKSHU</title>
 
 <style>
-body {
-    margin: 0;
-    background: #111;
-    color: white;
-    font-family: Arial, sans-serif;
-    text-align: center;
-}
+    * {
+        box-sizing: border-box;
+    }
 
-h1 {
-    font-size: 24px;
-    margin: 12px 0;
-}
+    body {
+        margin: 0;
+        padding: 8px;
+        background: #000;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        font-size: 15px;
+    }
 
-a {
-    display: block;
-    margin: 7px 18px;
-    padding: 10px;
-    background: #222;
-    border: 2px solid #555;
-    border-radius: 8px;
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-}
+    .title {
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 4px 0 8px;
+        border-bottom: 1px solid #333;
+        margin-bottom: 6px;
+    }
 
-a:focus {
-    outline: 3px solid white;
-    background: #444;
-}
+    a {
+        display: block;
+        padding: 6px 8px;
+        margin: 2px 0;
+        color: #ddd;
+        text-decoration: none;
+        border: 1px solid transparent;
+    }
+
+    a:focus {
+        color: #fff;
+        background: #222;
+        border-color: #777;
+        outline: none;
+    }
+
+    .section {
+        color: #777;
+        font-size: 11px;
+        padding: 5px 8px 2px;
+        text-transform: uppercase;
+    }
 </style>
 </head>
 
 <body>
 
-<h1>AKSHU</h1>
+<div class="title">AKSHU</div>
 
-<a href="https://www.google.com">🔎 Google</a>
-<a href="https://www.youtube.com">▶ YouTube</a>
-<a href="https://web.whatsapp.com">💬 WhatsApp</a>
-<a href="https://www.instagram.com">📸 Instagram</a>
-<a href="https://mail.google.com">📧 Gmail</a>
-<a href="https://audiomack.com">🎵 Music</a>
-<a href="https://gemini.google.com">🤖 AI</a>
+<div class="section">Web</div>
+
+<a href="https://www.google.com">Google</a>
+<a href="https://www.youtube.com">YouTube</a>
+
+<div class="section">Social</div>
+
+<a href="https://web.whatsapp.com">WhatsApp</a>
+<a href="https://www.instagram.com/">Instagram</a>
+<a href="https://www.instagram.com/reels/">Instagram Reels</a>
+
+<div class="section">Mail</div>
+
+<a href="https://mail.google.com/">Gmail</a>
+
+<div class="section">Music</div>
+
+<a href="https://music.youtube.com/">YouTube Music</a>
+<a href="https://open.spotify.com/">Spotify</a>
+
+<div class="section">AI</div>
+
+<a href="https://chatgpt.com/">ChatGPT</a>
+<a href="https://gemini.google.com/">Gemini</a>
 
 </body>
 </html>
